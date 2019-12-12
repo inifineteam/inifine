@@ -118,8 +118,53 @@ a {
   -moz-transition: all 0.4s;
 }
 
+.donar-prin{
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 576px) {
+  .donar-prin{
+    display: block;
+    justify-content: center;
+  }
+  .donar{
+    text-align: center;
+    padding-top: 15px;
+  }
+  }
+  
+
+
+.donar{
+  padding: 0 15px;
+}
+
+.donar p{
+  font-size: 18px;
+  padding-bottom: 16px;
+  text-align: center;
+}
+
+.donar form input:nth-child(3){
+  width: 200px;
+}
+
+
 a:focus {
 	outline: none !important;
+}
+.btn-donar{
+  text-align: center;
+}
+
+.btn-cam{
+    width: 300px;
+    font-size: 25px;
+    color: white;
+    background: green;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 a:hover {
@@ -1422,7 +1467,7 @@ body {padding-right: 0px !important;}
 */
 .bg-title-page {
   width: 100%;
-  min-height: 545px;
+  min-height: 100px;
   padding-left: 15px;
   padding-right: 15px;
   background-repeat: no-repeat;
